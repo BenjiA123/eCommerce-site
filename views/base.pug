@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  head
+    title eComm |  #{title}
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
+    meta(charset=utf-8)
+    link( rel="icon" type="image/png" href="/images/icons/main_icon2.png")
+
+    meta(name="viewport", content="width=device-width, initial-scale=1.0") 
+    meta(
+      name="description",
+      content="Welcome to TeckWrld Stores where you can but anything and everythinsg.")
+    
+    //- link(rel="canonical" href="https://www.ojosundayfayomi.com/" )
+
+    link(rel='stylesheet', href='/css/overview.css')
+    link(rel="stylesheet", href="/css/style.css")
+    link(rel="stylesheet", href="/css/grid.css")
+    link(rel="stylesheet", href="/css/queries.css")
+    //- script(src="/javascripts/header.js" defer)
+  body 
+    include _header
+
+    block content
+                        
+    include _footer

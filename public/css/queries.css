@@ -1,0 +1,12 @@
+@media screen and (max-width: 780px) {
+  .main-nav li {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-nav {
+    visibility: hidden;
+  }
+}
